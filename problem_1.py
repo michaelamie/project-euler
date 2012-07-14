@@ -4,6 +4,6 @@ we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000. '''
 
-list = [n for n in range(1, 10)
+list = [n for n in range(1, 1000)
         if not n % 3 or not n % 5]
 print "Sum: %d" % sum(list)
